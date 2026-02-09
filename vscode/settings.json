@@ -1,0 +1,80 @@
+{
+  //Установка шрифта
+ // "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontSize": 18,
+
+  // Установить иконки и настроить их
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.indent": 14,
+
+  // Отсчет строчки относительно текущего курсора
+  "editor.lineNumbers": "relative",
+
+  // Запрашивать подтверждение на удаление и Drag&Drop
+    "explorer.confirmDragAndDrop": true,
+    "explorer.confirmDelete": true,
+
+    // Убрать статус бар снизу
+   // "workbench.statusBar.visible": false,
+    
+     // Убираем виджет справа для скролла
+    "editor.scrollbar.horizontal": "visible",
+    "editor.scrollbar.vertical": "visible",
+    "editor.minimap.enabled": false,
+    "editor.matchBrackets": "never",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+// Убрать полный путь к файлу сверху
+    "breadcrumbs.enabled": false,
+
+     // Убрать панель слева с git, run, debug, plugins
+   // "workbench.activityBar.location": "hidden",
+
+      // Не показывать все открытые вкладки
+   // "workbench.editor.showTabs": "single",
+
+    // Отключаем панель управления окном
+    // "chat.commandCenter.enabled": false,
+    // "workbench.layoutControl.enabled": false,
+    // "window.customTitleBarVisibility": "never",
+    // "window.titleBarStyle": "native",
+    // "window.menuBarVisibility": "toggle",
+
+       // Отключаем лишние декорации и метки
+    "explorer.decorations.badges": false,
+    "git.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    // Настройка курсора
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.cursorBlinking": "solid",
+     // Установить длину одного tab    "editor.tabSize": 4,
+    // Отключаем окно с помощью для новичков
+    "workbench.tips.enabled": false,
+    // Добавлять одну пустую строку в конец файла чтобы избежать ошибоки
+    "files.insertFinalNewline": true,
+
+    // Не показывает пробелы, табы, перевод строки и т.п. символы в редакторе
+    "editor.renderWhitespace": "none",
+      // Убирает вертикальные линии отступов в дереве файлов
+    "workbench.tree.renderIndentGuides": "none",
+
+    // Автосохранение файлов через короткую паузу после редактирования
+    "files.autoSave": "afterDelay",
+
+
+    //Остальные мои настройки 
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true,
+  "editor.defaultFormatter": "ms-vscode.cpptools",
+  "debug.onTaskErrors": "showErrors",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.colorTheme": "Visual Studio 2017 Dark - C++",
+  "C_Cpp.formatting": "vcFormat",
+  
+  
+}
